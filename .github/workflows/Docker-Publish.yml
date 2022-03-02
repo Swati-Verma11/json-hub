@@ -22,8 +22,7 @@ jobs:
         with:
           image: swativerma11/jsonhub-testing:tagname
           tags: latest
-          registry: registry-url.io
-          dockerfile: Dockerfile.ci
+          registry: docker.io
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
